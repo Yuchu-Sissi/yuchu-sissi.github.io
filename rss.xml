@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[玉初]]></title><description><![CDATA[玉初]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Jun 2026 11:18:35 GMT</lastBuildDate><item><title><![CDATA[ADC 定点偶联的技术路线选择]]></title><description><![CDATA[关于 ADC 定点偶联技术路线的初步思考，对比随机偶联与定点偶联在 CMC 和机制层面的差异。]]></description><link>https://yuchu-blog.netlify.app/posts/adc-site-specific-conjugation</link><guid isPermaLink="false">https://yuchu-blog.netlify.app/posts/adc-site-specific-conjugation</guid><pubDate>Wed, 03 Jun 2026 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;今天看到罗氏在 AACR 上展示的 AND-gate 双抗设计，突然联想到 ADC 的定点偶联问题。&lt;/p&gt;
+&lt;p&gt;核心矛盾在于：CMC 的可制造性与机制的可控性之间的张力。&lt;/p&gt;
+&lt;p&gt;随机偶联（DAR 4-8）的临床验证最充分，但批间一致性始终是个问题。定点偶联（DAR 2）在 CMC 层面更干净，但疗效是否打折扣？&lt;/p&gt;
+&lt;p&gt;需要进一步追踪的数据：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不同 DAR 值下的 MTD 和 TI&lt;/li&gt;
+&lt;li&gt;批间一致性对临床疗效的实际影响&lt;/li&gt;
+&lt;li&gt;定点偶联的成本溢价是否可接受&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;先记下来，后面整理。&lt;/p&gt;</content:encoded></item></channel></rss>
