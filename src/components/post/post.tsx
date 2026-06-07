@@ -17,7 +17,7 @@ interface PostProps {
 const Post: FC<PostProps> = ({ post }) => {
   const { html } = post;
   const { tagSlugs } = post.fields;
-  const { tags, title, date } = post.frontmatter;
+  const { tags, title, date, prev, next } = post.frontmatter;
 
   return (
     <div className={styles.post}>
@@ -28,6 +28,20 @@ const Post: FC<PostProps> = ({ post }) => {
       <div className={styles.content}>
         <PostContent body={html} title={title} tags={tags} />
       </div>
+      {(prev || next) && (
+        <nav className={styles.chapterNav}>
+          {prev ? (
+            <Button title="← 上一章" to={prev} />
+          ) : (
+            <span />
+          )}
+          {next ? (
+            <Button title="下一章 →" to={next} />
+          ) : (
+            <span />
+          )}
+        </nav>
+      )}
       <div className={styles.footer}>
         <PostFooter date={date} />
         {tags && tagSlugs && <PostTags tags={tags} tagSlugs={tagSlugs} />}
