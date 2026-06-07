@@ -28,12 +28,23 @@ body {
     width: 55vw;
     height: 75vh;
     background-image: url('/images/bamboo-bg.png');
-    background-size: auto 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom right;
     opacity: 0.3;
     pointer-events: none;
     z-index: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body::before {
+    width: auto;
+    height: auto;
+    max-width: 40vw;
+    max-height: 50vh;
+    background-size: contain;
+    opacity: 0.2;
   }
 }
 
