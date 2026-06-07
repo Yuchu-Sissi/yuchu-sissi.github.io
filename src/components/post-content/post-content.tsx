@@ -15,7 +15,6 @@ const PostContent: FC<PostContentProps> = ({ body, title, tags }) => {
   return (
     <div className={styles.postContent}>
       <h1 className={styles.title}>{title}</h1>
-      {isNovel && <div className={styles.novelWatermark}>⚠ 本文受保护，禁止复制转载</div>}
       <div className={bodyClass} dangerouslySetInnerHTML={{ __html: body }} />
     </div>
   );
