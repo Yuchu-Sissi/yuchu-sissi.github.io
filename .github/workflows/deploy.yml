@@ -29,7 +29,7 @@ jobs:
         run: npm install --no-optional
       
       - name: Clean and Build Gatsby
-        run: npm run clean && npm run build
+        run: npm run clean && gatsby build --verbose
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
