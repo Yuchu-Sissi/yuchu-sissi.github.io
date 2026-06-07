@@ -2,7 +2,7 @@
   "title": "玉初",
   "url": "https://yuchu-blog.netlify.app",
   "description": "生物医药 · 投资 · 生活 · 阅读",
-  "copyright": "© 玉初. Built From Gatsby Lumen.",
+  "copyright": "© 思源. Built From Gatsby Lumen.",
   "googleAnalyticsId": "",
   "pathPrefix": "/",
   "feedLimit": 4,
@@ -21,9 +21,9 @@
     }
   ],
   "author": {
-    "title": "玉初",
+    "title": "思源",
     "photo": "/logo.svg",
-    "description": "沧海遗珠，私人展览馆。",
+    "description": "饮水思源，不忘初心。沧海遗珠，私人展览馆。",
     "contacts": [
       {
         "name": "email",
