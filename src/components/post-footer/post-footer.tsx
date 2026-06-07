@@ -3,7 +3,7 @@ import React, { type FC } from "react";
 import * as styles from "./post-footer.module.scss";
 
 interface PostFooterProps {
-  date: string;
+  date?: string;
 }
 
 const PostFooter: FC<PostFooterProps> = ({ date }) => {
