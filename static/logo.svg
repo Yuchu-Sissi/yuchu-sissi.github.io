@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+ <defs>
+ <!-- 翠玉渐变背景 -->
+ <radialGradient id="jadeGradient" cx="50%" cy="40%" r="60%" fx="30%" fy="30%">
+ <stop offset="0%" stop-color="#3DAF7A" />
+ <stop offset="60%" stop-color="#1B7E54" />
+ <stop offset="100%" stop-color="#0E5A3A" />
+ </radialGradient>
+
+ <!-- 月亮内层微光渐变 -->
+ <linearGradient id="moonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+ <stop offset="100%" stop-color="#C4F0DC" stop-opacity="0.9" />
+ </linearGradient>
+
+ <!-- 流水纹渐变线条 -->
+ <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+ <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95" />
+ <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.6" />
+ </linearGradient>
+
+ <!-- 圆形裁剪路径，保证图形边缘整齐 -->
+ <clipPath id="circleClip">
+ <circle cx="100" cy="100" r="94" />
+ </clipPath>
+ </defs>
+
+ <!-- 外圈精致细环（翠玉色） -->
+ <circle cx="100" cy="100" r="97" fill="none" stroke="#A4D8B8" stroke-width="1.5" opacity="0.5" />
+
+ <!-- 主体圆形翠玉底板 -->
+ <circle cx="100" cy="100" r="94" fill="url(#jadeGradient)" />
+
+ <!-- 被圆形裁剪的内容组 -->
+ <g clip-path="url(#circleClip)">
+
+ <!-- 月亮（新月形状，略作倾斜营造优雅动势） -->
+ <g transform="rotate(-28 100 85)">
+ <path d="M 100 50 A 35 35 0 1 1 100 120 A 25 25 0 1 0 100 50 Z"
+ fill="url(#moonGradient)" />
+ </g>
+
+ <!-- 流水纹理：三条柔和的波浪线，象征涟漪与流动性 -->
+ <g fill="none" stroke="url(#waterGradient)" stroke-width="3.2" stroke-linecap="round">
+ <!-- 第一道波，靠近月亮下方 -->
+ <path d="M 40 125 Q 60 117 80 125 T 120 125 T 160 125" />
+ <!-- 第二道波，中层 -->
+ <path d="M 35 140 Q 55 132 75 140 T 115 140 T 165 140" />
+ <!-- 第三道波，底层 -->
+ <path d="M 45 155 Q 65 147 85 155 T 125 155 T 155 155" />
+ </g>
+
+ <!-- 抽象水珠点缀（增加灵动感） -->
+ <circle cx="78" cy="132" r="2.5" fill="#FFFFFF" opacity="0.7" />
+ <circle cx="132" cy="148" r="2" fill="#FFFFFF" opacity="0.6" />
+ <circle cx="95" cy="118" r="1.8" fill="#FFFFFF" opacity="0.5" />
+ </g>
+
+ <!-- 内圈隐约光晕（增加玉的温润质感） -->
+ <circle cx="100" cy="100" r="92" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.25" />
+</svg>

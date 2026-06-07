@@ -1,0 +1,57 @@
+@use "sass:math";
+
+$dark-color-palette: (
+  background: hsl(0, 0%, 8%),
+  foreground: hsl(0, 0%, 95%),
+  muted: hsl(0, 0%, 15%),
+  muted-foreground: hsl(0, 0%, 60%),
+  border: hsl(0, 0%, 20%),
+  primary: hsl(0, 0%, 95%),
+  primary-foreground: hsl(0, 0%, 8%),
+  secondary: hsl(0, 0%, 15%),
+  secondary-foreground: hsl(0, 0%, 95%),
+  accent: hsl(150, 25%, 45%),
+  accent-foreground: hsl(0, 0%, 95%),
+  destructive: hsl(0, 60%, 55%),
+  destructive-foreground: hsl(0, 0%, 95%),
+  positive: hsl(150, 25%, 45%),
+  positive-foreground: hsl(0, 0%, 8%),
+);
+
+$light-color-palette: (
+  background: hsl(0, 0%, 100%),
+  foreground: hsl(0, 0%, 8%),
+  muted: hsl(0, 0%, 96%),
+  muted-foreground: hsl(0, 0%, 45%),
+  border: hsl(0, 0%, 90%),
+  primary: hsl(0, 0%, 8%),
+  primary-foreground: hsl(0, 0%, 100%),
+  secondary: hsl(0, 0%, 96%),
+  secondary-foreground: hsl(0, 0%, 8%),
+  accent: hsl(150, 25%, 40%),
+  accent-foreground: hsl(0, 0%, 100%),
+  destructive: hsl(0, 60%, 55%),
+  destructive-foreground: hsl(0, 0%, 100%),
+  positive: hsl(150, 25%, 40%),
+  positive-foreground: hsl(0, 0%, 8%)
+);
+
+$typography-root-font-size: 100;
+$typography-base-font-size: 17px;
+$typography-small-font-size: 14px;
+$typography-base-line-height: 1.8;
+$typography-leading: math.round(17 * math.div($typography-root-font-size, 100) * $typography-base-line-height);
+$typography-font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+$typography-heading-font-family: "Georgia", "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+
+$button-height: 40px;
+$button-border-radius: 20px;
+
+$layout-post-single-width: 945px;
+$layout-post-width: $layout-post-single-width - 305px;
+
+$layout-gap: 30px;
+$layout-width: 1070px;
+$layout-breakpoint-sm: 685px;
+$layout-breakpoint-md: 960px;
+$layout-breakpoint-lg: 1100px;

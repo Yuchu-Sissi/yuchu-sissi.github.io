@@ -1,0 +1,141 @@
+@use "src/assets/styles/mixins";
+@use "src/assets/styles/variables";
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.dialog {
+  background: hsl(var(--color-background));
+  border: 1px solid hsl(var(--color-border));
+  border-radius: 12px;
+  max-width: 480px;
+  width: 100%;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.closeButton {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: hsl(var(--color-muted));
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: hsl(var(--color-foreground));
+    background: hsl(var(--color-border));
+  }
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: variables.$typography-base-font-size * 1.5;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: hsl(var(--color-foreground));
+}
+
+.subtitle {
+  font-size: variables.$typography-base-font-size;
+  color: hsl(var(--color-muted));
+  margin: 0;
+  line-height: 1.5;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: variables.$typography-small-font-size;
+  font-weight: 600;
+  color: hsl(var(--color-foreground));
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.input,
+.textarea {
+  border: 1px solid hsl(var(--color-border));
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: variables.$typography-base-font-size;
+  font-family: variables.$typography-font-family;
+  color: hsl(var(--color-foreground));
+  background: hsl(var(--color-background));
+  transition: border-color 0.2s ease;
+  outline: none;
+
+  &::placeholder {
+    color: hsl(var(--color-muted));
+  }
+
+  &:focus {
+    border-color: hsl(var(--color-primary));
+  }
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.submitButton {
+  background: hsl(var(--color-foreground));
+  color: hsl(var(--color-background));
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: variables.$typography-base-font-size;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+@include mixins.breakpoint-sm {
+  .dialog {
+    padding: 28px;
+  }
+}

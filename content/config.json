@@ -1,0 +1,34 @@
+{
+  "title": "玉初",
+  "url": "https://yuchu-blog.netlify.app",
+  "description": "生物医药 · 投资 · 生活 · 阅读",
+  "copyright": "© 玉初. Built From Gatsby Lumen.",
+  "googleAnalyticsId": "",
+  "pathPrefix": "/",
+  "feedLimit": 4,
+  "menu": [
+    {
+      "title": "Blog",
+      "url": "/"
+    },
+    {
+      "title": "About",
+      "url": "/pages/about"
+    },
+    {
+      "title": "Research",
+      "url": "/pages/research"
+    }
+  ],
+  "author": {
+    "title": "玉初",
+    "photo": "/logo.svg",
+    "description": "沧海遗珠，私人展览馆。",
+    "contacts": [
+      {
+        "name": "email",
+        "contact": "Sissi.yuchu@outlook.com"
+      }
+    ]
+  }
+}
