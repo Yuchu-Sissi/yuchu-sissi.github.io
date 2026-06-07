@@ -37,7 +37,10 @@
     justify-content: space-between;
     max-width: variables.$layout-post-width;
     @include mixins.padding(0, 0.5);
-    @include mixins.margin(1, auto, 2, auto);
+    @include mixins.margin-top(1);
+    @include mixins.margin-bottom(2);
+    margin-left: auto;
+    margin-right: auto;
     border-top: 1px solid hsl(var(--color-border));
     border-bottom: 1px solid hsl(var(--color-border));
     @include mixins.padding(1, 0);
