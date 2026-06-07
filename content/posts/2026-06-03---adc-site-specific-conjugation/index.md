@@ -4,7 +4,7 @@ date: "2026-06-03T12:00:00.000Z"
 template: "post"
 draft: false
 slug: "/posts/adc-site-specific-conjugation"
-category: "生物医药"
+category: "工作"
 tags:
   - "ADC"
   - "定点偶联"
