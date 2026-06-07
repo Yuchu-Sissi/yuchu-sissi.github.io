@@ -1,4 +1,5 @@
 ---
+date: "2026-06-07T12:00:00.000Z"
 title: "夕凪之息：第六章 · 孤灯"
 slug: "/posts/夕凪之息-第六章"
 template: "post"

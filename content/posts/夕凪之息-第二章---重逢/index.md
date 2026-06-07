@@ -1,4 +1,5 @@
 ---
+date: "2026-06-07T12:00:00.000Z"
 title: "夕凪之息：第二章 · 重逢"
 slug: "/posts/夕凪之息-第二章"
 template: "post"

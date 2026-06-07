@@ -18,6 +18,7 @@ const Post: FC<PostProps> = ({ post }) => {
   const { html } = post;
   const { tagSlugs } = post.fields;
   const { tags, title, date, prev, next } = post.frontmatter;
+  const isNovel = tags?.includes("夕凪之息") || tags?.includes("novel");
 
   return (
     <div className={styles.post}>
@@ -43,7 +44,7 @@ const Post: FC<PostProps> = ({ post }) => {
         </nav>
       )}
       <div className={styles.footer}>
-        <PostFooter date={date} />
+        {!isNovel && <PostFooter date={date} />}
         {tags && tagSlugs && <PostTags tags={tags} tagSlugs={tagSlugs} />}
         <PostAuthor />
       </div>
