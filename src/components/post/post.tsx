@@ -26,7 +26,7 @@ const Post: FC<PostProps> = ({ post }) => {
         <ThemeSwitcher />
       </div>
       <div className={styles.content}>
-        <PostContent body={html} title={title} />
+        <PostContent body={html} title={title} tags={tags} />
       </div>
       <div className={styles.footer}>
         <PostFooter date={date} />
