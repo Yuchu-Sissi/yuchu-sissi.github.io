@@ -7,11 +7,11 @@
   @include mixins.padding(0, 0.5);
 
   .title {
-    font-size: variables.$typography-base-font-size * 2;
+    font-size: variables.$typography-base-font-size * 1.5;
     font-weight: 600;
     margin-left: auto;
     margin-right: auto;
-    max-width: variables.$layout-post-width;
+    max-width: variables.$layout-post-width * 0.5;
     text-align: center;
     @include mixins.line-height(1.65);
     @include mixins.margin-top(1);
@@ -67,7 +67,8 @@
     @include mixins.padding-equal(0);
 
     .title {
-      font-size: variables.$typography-base-font-size * 3;
+      font-size: variables.$typography-base-font-size * 2.25;
+      max-width: variables.$layout-post-width * 0.5;
       @include mixins.line-height(2.25);
       @include mixins.margin-top(2.25);
       @include mixins.margin-bottom(1.5);
