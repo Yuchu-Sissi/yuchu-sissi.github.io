@@ -16,7 +16,7 @@ interface PostProps {
 
 const Post: FC<PostProps> = ({ post }) => {
   const { html } = post;
-  const { tagSlugs } = post.fields;
+  const { tagSlugs, categorySlug } = post.fields;
   const { tags, title, date, prev, next } = post.frontmatter;
   const isNovel = tags?.includes("夕凪之息") || tags?.includes("novel");
 
@@ -36,6 +36,7 @@ const Post: FC<PostProps> = ({ post }) => {
           ) : (
             <span />
           )}
+          <Button title="回到主页" to={categorySlug || "/"} />
           {next ? (
             <Button title="下一章 →" to={next} />
           ) : (
