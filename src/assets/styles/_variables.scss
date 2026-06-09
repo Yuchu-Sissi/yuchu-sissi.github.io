@@ -37,8 +37,8 @@ $light-color-palette: (
 );
 
 $typography-root-font-size: 100;
-$typography-base-font-size: 17px;
-$typography-small-font-size: 14px;
+$typography-base-font-size: 15px;
+$typography-small-font-size: 12px;
 $typography-base-line-height: 1.8;
 $typography-leading: math.round(17 * math.div($typography-root-font-size, 100) * $typography-base-line-height);
 $typography-font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
