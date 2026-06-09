@@ -25,11 +25,12 @@ const getPaginationPath = (basePath: string, page: number): string =>
 const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  createPage({
-    path: routes.notFoundRoute,
-    component: templates.notFoundTemplate,
-    context: {},
-  });
+  // Let Gatsby create 404 automatically, don't create it manually
+  // createPage({
+  //   path: routes.notFoundRoute,
+  //   component: templates.notFoundTemplate,
+  //   context: {},
+  // });
 
   createPage({
     path: routes.tagsListRoute,
