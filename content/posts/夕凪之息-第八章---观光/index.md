@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第八章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "晨光里的浅绛山水，与一场心照不宣的沉默。"
+description: "晨光把浅绛山水泼在纸门上，两人之间只剩心照不宣的沉默。"
 prev: "/posts/夕凪之息-第七章"
 next: "/posts/夕凪之息-第九章"
 ---

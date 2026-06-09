@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第十章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "竹林深处的追逐，与一场没有赢家的博弈。"
+description: "竹林深处的追逐，有人要逃，有人要追。最后发现，谁也没赢。"
 prev: "/posts/夕凪之息-第九章"
 ---
 

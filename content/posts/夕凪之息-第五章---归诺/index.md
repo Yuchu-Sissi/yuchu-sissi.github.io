@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第五章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "和室中的恳求，与一柄递出的短刀。"
+description: "和室中的恳求，换来一柄递出的短刀，和一个归诺。"
 prev: "/posts/夕凪之息-第四章"
 next: "/posts/夕凪之息-第六章"
 ---

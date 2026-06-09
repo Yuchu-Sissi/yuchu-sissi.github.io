@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第七章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "一杯甜茶，与一场无梦的深眠。"
+description: "一杯甜茶喝下去，换来一场无梦的深眠。这大概是京都最温柔的陷阱。"
 prev: "/posts/夕凪之息-第六章"
 next: "/posts/夕凪之息-第八章"
 ---

@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第三章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "宅邸深处的议事厅，与一杯点茶。"
+description: "议事厅里点了一碗茶，茶烟袅袅，每一口都是试探。"
 prev: "/posts/夕凪之息-第二章"
 next: "/posts/夕凪之息-第四章"
 ---

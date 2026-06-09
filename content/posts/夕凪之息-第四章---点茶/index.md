@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第四章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "茶室里的试探，一碗证明无毒的抹茶。"
+description: "茶室里一碗抹茶，要先证明无毒，才能入口。"
 prev: "/posts/夕凪之息-第三章"
 next: "/posts/夕凪之息-第五章"
 ---

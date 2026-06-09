@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第九章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "小火车上的樱花，与瞳孔里倒映的春天。"
+description: "小火车沿着保津川慢慢爬，樱花扑进车窗，瞳孔里倒映的是春天，还是别的东西？"
 prev: "/posts/夕凪之息-第八章"
 next: "/posts/夕凪之息-第十章"
 ---

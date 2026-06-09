@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第二章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "竹林之后的重逢，酒店大堂里的归还。"
+description: "酒店大堂的归还，是劫后余生的照面，也是另一场囚禁的开始。"
 prev: "/posts/夕凪之息-第一章"
 next: "/posts/夕凪之息-第三章"
 ---

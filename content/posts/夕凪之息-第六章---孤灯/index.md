@@ -5,7 +5,7 @@ slug: "/posts/夕凪之息-第六章"
 template: "post"
 category: "创作"
 tags: ["夕凪之息", "小说", "京都"]
-description: "噩梦惊醒，门外跪着的人。"
+description: "噩梦惊醒，门外跪着一个人。不是鬼魂，是更可怕的东西。"
 prev: "/posts/夕凪之息-第五章"
 next: "/posts/夕凪之息-第七章"
 ---
