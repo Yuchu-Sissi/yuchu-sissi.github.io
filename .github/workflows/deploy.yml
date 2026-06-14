@@ -26,7 +26,7 @@ jobs:
           node-version: '20'
       
       - name: Install dependencies
-        run: npm install --no-optional
+        run: npm install
       
       - name: Clean and Build Gatsby
         run: npm run clean && GATSBY_CPU_COUNT=1 npx gatsby build
