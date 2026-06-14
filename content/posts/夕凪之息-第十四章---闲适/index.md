@@ -1,5 +1,5 @@
 ---
-title: "夕凪之息 · 第14章 · 闲适"
+title: "夕凪之息 · 第十四章 · 闲适"
 date: "2026-06-14"
 template: "post"
 category: "创作"

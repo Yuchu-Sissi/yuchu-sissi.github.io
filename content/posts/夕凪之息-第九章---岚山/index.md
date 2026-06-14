@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07T12:08:00.000Z"
-title: "夕凪之息：第九章 · 岚山"
+title: "夕凪之息 · 第九章 · 岚山"
 slug: "/posts/夕凪之息-第九章"
 template: "post"
 category: "创作"

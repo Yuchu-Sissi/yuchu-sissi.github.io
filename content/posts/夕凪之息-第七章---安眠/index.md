@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07T12:06:00.000Z"
-title: "夕凪之息：第七章 · 安眠"
+title: "夕凪之息 · 第七章 · 安眠"
 slug: "/posts/夕凪之息-第七章"
 template: "post"
 category: "创作"

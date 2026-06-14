@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07T12:04:00.000Z"
-title: "夕凪之息：第五章 · 归诺"
+title: "夕凪之息 · 第五章 · 归诺"
 slug: "/posts/夕凪之息-第五章"
 template: "post"
 category: "创作"

@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07T12:03:00.000Z"
-title: "夕凪之息：第四章 · 点茶"
+title: "夕凪之息 · 第四章 · 点茶"
 slug: "/posts/夕凪之息-第四章"
 template: "post"
 category: "创作"

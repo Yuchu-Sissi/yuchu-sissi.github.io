@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07T12:07:00.000Z"
-title: "夕凪之息：第八章 · 观光"
+title: "夕凪之息 · 第八章 · 观光"
 slug: "/posts/夕凪之息-第八章"
 template: "post"
 category: "创作"

@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07T12:05:00.000Z"
-title: "夕凪之息：第六章 · 孤灯"
+title: "夕凪之息 · 第六章 · 孤灯"
 slug: "/posts/夕凪之息-第六章"
 template: "post"
 category: "创作"

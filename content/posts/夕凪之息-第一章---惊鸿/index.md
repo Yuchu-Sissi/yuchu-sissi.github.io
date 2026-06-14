@@ -1,6 +1,6 @@
 ---
-date: "2026-06-07T12:00:00.000Z"
-title: "夕凪之息：第一章 · 惊鸿"
+date: "2026-06-01"
+title: "夕凪之息 · 第一章 · 惊鸿"
 slug: "/posts/夕凪之息-第一章"
 template: "post"
 category: "创作"
